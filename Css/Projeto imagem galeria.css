@@ -1,0 +1,32 @@
+body
+{
+    background-image: url(../Imagens/photo-1628498188904-036f5e25e93e.jpeg);
+    background-size: cover;
+}
+.Container
+{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.Container img{
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transition: all ease-in-out 0.5s;
+}
+.Container img:hover{
+    width: 25%;
+}
+h3
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana;
+}
